@@ -18,23 +18,17 @@ header{
 
 /*estilos en mobile*/
 @media (max-width: 641px) {
-
-    .contenedor{
-        width: 80%;
-        margin: 0 auto;
-        align-items: center;
-        height: 100%;
-        margin-bottom: 10px;
-  }
-
-  .naralogo img{
+    .naralogo img {
  
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 250px;
-    width: 250px; 
-    margin-top: 20px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 70px;
+        width: 70px; 
+        margin-top: 20px;
+        
+      
+      }
 
 }
 
@@ -50,15 +44,13 @@ header{
         
        }
 
-       .naralogo img {
-   
-     
+       .naralogo img{
+ 
         display:block;
         margin-left: auto;
         margin-right: auto;
-        height: 180px;
-        width: 180px;
-         margin-top: 7px;
-      }
+        height: 250px;
+        width: 250px; 
+        margin-top: 20px;
 
 }}

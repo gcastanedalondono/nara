@@ -1,0 +1,31 @@
+header{
+    height: 80px;
+    background-color: teal;
+}
+
+/*estilos en mobile*/
+@media (max-width: 641px) {
+
+    .contenedor{
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        height: 100%;
+        margin-bottom: 10px;
+  }
+
+}
+
+/*estilos en Desktop*/
+ 
+@media (min-width: 642px) {
+  
+    .contenedor{
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        height: 100%;
+        
+       }
+
+}

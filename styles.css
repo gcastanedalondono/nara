@@ -1,7 +1,20 @@
 header{
     height: 80px;
     background-color: teal;
+
 }
+
+.main_title{
+    text-align: center;
+
+  }
+
+  .naralogo{
+    display:block;
+    margin-top: 40px;
+    justify-content: center;
+    
+   }  
 
 /*estilos en mobile*/
 @media (max-width: 641px) {
@@ -13,6 +26,15 @@ header{
         height: 100%;
         margin-bottom: 10px;
   }
+
+  .naralogo img{
+ 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px; 
+    margin-top: 20px;
 
 }
 
@@ -28,4 +50,15 @@ header{
         
        }
 
-}
+       .naralogo img {
+   
+     
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 180px;
+        width: 180px;
+         margin-top: 7px;
+      }
+
+}}

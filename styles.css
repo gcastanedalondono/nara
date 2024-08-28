@@ -30,6 +30,24 @@ header{
       
       }
 
+      .contenedor{
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        height: 100%;
+        
+       }   
+
+       .lista_guia{
+
+        list-style-type: none; /* Elimina los puntos de la lista */
+        padding: 0;
+        display: grid;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; 
+    
+    }
+
 }
 
 /*estilos en Desktop*/
@@ -51,6 +69,18 @@ header{
         margin-right: auto;
         height: 250px;
         width: 250px; 
-        margin-top: 20px;
+        margin-top: 20px;}
+    
+        .lista_guia{
 
-}}
+            list-style-type: none; /* Elimina los puntos de la lista */
+            padding: 0;
+            display: grid;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; 
+        
+        }
+    
+    
+    
+    }
